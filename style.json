@@ -4932,59 +4932,7 @@
 
         "type": "symbol"
 
-    }, {
-
-        "filter": ["all", ["has", "iata"]],
-
-        "id": "airport-label-major",
-
-        "layout": {
-
-            "icon-image": "airport_11",
-
-            "icon-size": 1,
-
-            "text-anchor": "top",
-
-            "text-field": "{name:latin}\n{name:nonlatin}",
-
-            "text-font": ["Noto Sans Regular"],
-
-            "text-max-width": 9,
-
-            "text-offset": [0, 0.6],
-
-            "text-optional": true,
-
-            "text-padding": 2,
-
-            "text-size": 12,
-
-            "visibility": "visible"
-
-        },
-
-        "minzoom": 10,
-
-        "paint": {
-
-            "text-color": "#666",
-
-            "text-halo-blur": 0.5,
-
-            "text-halo-color": "#ffffff",
-
-            "text-halo-width": 1
-
-        },
-
-        "source": "openmaptiles",
-
-        "source-layer": "aerodrome_label",
-
-        "type": "symbol"
-
-    }, {
+    },{
 
         "filter": ["!in", "class", "city", "town", "village", "country", "continent"],
 
